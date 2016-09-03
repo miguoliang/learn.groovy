@@ -48,6 +48,24 @@ class MathSection extends Section{
         println("Math.min(2,3) = " + Math.min(2, 3))
         println("Math.max(2,3) = " + Math.max(2, 3))
 
+        println("Math.log(2) = " + Math.log(2))
+        println("Math.log10(2) = " + Math.log10(2))
+
+        println("Math.toDegrees(Math.PI) = " + Math.toDegrees(Math.PI))
+        println("Math.toRadians(90) = " + Math.toRadians(90))
+
+        println("Math.sin(0.5 * Math.PI) = " + Math.sin(0.5 * Math.PI))
+        println("Math.cos(0.5 * Math.PI) = " + Math.cos(0.5 * Math.PI))
+        println("Math.tan(0.25 * Math.PI) = " + Math.tan(0.25 * Math.PI))
+        println("Math.asin(0.5) = " + Math.asin(0.5))
+        println("Math.acos(0.5) = " + Math.acos(0.5))
+        println("Math.atan(1) = " + Math.atan(1))
+        println("Math.sinh(0.5) = " + Math.sinh(0.5))
+        println("Math.cosh(0.5) = " + Math.cosh(0.5))
+        println("Math.tanh(0.5) = " + Math.tanh(0.5))
+
+        println("Math.abs(new Random().nextInt() % 100) + 1 = " + Math.abs(new Random().nextInt() % 100) + 1)
+
     }
 
 }
