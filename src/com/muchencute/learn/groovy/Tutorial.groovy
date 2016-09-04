@@ -15,6 +15,7 @@ class Tutorial {
         new ConciseSection().run()
         new FunctionSection().run()
         new FileSection().run()
+        new ClassSection().run()
     }
 
 }
