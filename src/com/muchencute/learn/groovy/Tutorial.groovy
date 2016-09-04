@@ -14,6 +14,7 @@ class Tutorial {
         new ArraySection().run()
         new MapSection().run()
         new ConciseSection().run()
+        new FunctionSection().run()
     }
 
 }
