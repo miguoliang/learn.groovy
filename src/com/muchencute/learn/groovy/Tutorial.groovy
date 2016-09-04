@@ -8,11 +8,12 @@ class Tutorial {
 
         println("Hello World!")
 
-        new MathSection().run();
-        new StringSection().run();
-        new FileSection().run();
-        new ArraySection().run();
-        new MapSection().run();
+        new MathSection().run()
+        new StringSection().run()
+        new FileSection().run()
+        new ArraySection().run()
+        new MapSection().run()
+        new ConciseSection().run()
     }
 
 }
