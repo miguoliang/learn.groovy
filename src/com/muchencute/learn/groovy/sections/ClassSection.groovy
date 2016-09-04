@@ -1,5 +1,7 @@
 package com.muchencute.learn.groovy.sections
 
+import groovy.transform.ToString
+
 class ClassSection extends Section {
 
     @Override
@@ -20,6 +22,7 @@ class ClassSection extends Section {
 
 }
 
+@ToString(includeNames = true)
 class Animal {
 
     def name
@@ -52,6 +55,5 @@ class Dog extends Animal {
     def makeSound() {
         println("$name says bark and $sound")
     }
-
 
 }
